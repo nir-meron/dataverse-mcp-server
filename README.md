@@ -24,6 +24,7 @@ MCP server that gives Claude (or any MCP client) full access to Microsoft Dynami
 | Managed Identity | 4 | UAMI setup for plugin Azure access |
 | Org Settings | 2 | Organization metadata, trace log control |
 | Batch | 1 | Execute multiple API calls atomically |
+| PAC CLI | 4 skills | Auth, PCF component scaffolding, Plugin project scaffolding, Solution pack/unpack for CI/CD |
 
 ---
 
