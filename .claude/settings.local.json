@@ -1,0 +1,11 @@
+{
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "wix-dataverse"
+  ],
+  "permissions": {
+    "allow": [
+      "mcp__wix-dataverse__query_records"
+    ]
+  }
+}

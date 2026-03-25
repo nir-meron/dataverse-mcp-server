@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "wix-dataverse": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["C:\\Users\\nirme\\Downloads\\dyna-meta-view\\wix-dataverse-mcp\\mcp-server\\dist\\index.js"]
+    }
+  }
+}

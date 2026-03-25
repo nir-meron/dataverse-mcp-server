@@ -1,0 +1,23 @@
+{
+  "name": "wix-dataverse-mcp",
+  "version": "5.0.0",
+  "description": "Wix internal MCP server for Dynamics 365 / Dataverse — 68 tools, all environments pre-configured.",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.6.0",
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "@types/node": "^22.13.4"
+  },
+  "private": true,
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

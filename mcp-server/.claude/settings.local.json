@@ -1,0 +1,6 @@
+{
+  "enabledMcpjsonServers": [
+    "wix-dataverse"
+  ],
+  "enableAllProjectMcpServers": true
+}
