@@ -14,9 +14,9 @@ Before running any commands, verify `pac` is installed:
 pac --version
 ```
 
-If not installed, guide the user:
-- **npm (recommended):** `npm install -g pac-cli` or `dotnet tool install --global Microsoft.PowerApps.CLI.Tool`
-- **Standalone installer:** https://aka.ms/PowerAppsCLI
+If not installed, guide the user based on their OS:
+- **macOS / Linux:** `brew install dotnet` then `dotnet tool install --global Microsoft.PowerApps.CLI.Tool`
+- **Windows:** `dotnet tool install --global Microsoft.PowerApps.CLI.Tool` or standalone installer: https://aka.ms/PowerAppsCLI
 
 Verify authentication:
 ```bash
@@ -185,7 +185,7 @@ export class MyControl implements ComponentFramework.StandardControl<IInputs, IO
 
 ## Troubleshooting
 
-- **"pac: command not found"** → Install via `npm install -g pac-cli`
+- **"pac: command not found"** → Install via `dotnet tool install --global Microsoft.PowerApps.CLI.Tool` (macOS/Linux: install .NET first with `brew install dotnet`)
 - **"No auth profiles"** → Run `pac auth create --url https://yourorg.crm.dynamics.com`
 - **Build errors** → Check Node.js version (16+), run `npm install` first
 - **Push fails** → Verify auth is connected to the right environment: `pac auth list`

@@ -186,7 +186,7 @@ For Azure DevOps / GitHub Actions:
 ```yaml
 # GitHub Actions example
 - name: Install PAC
-  run: npm install -g pac-cli
+  run: dotnet tool install --global Microsoft.PowerApps.CLI.Tool
 
 - name: Auth
   run: pac auth create --url ${{ secrets.D365_URL }} --applicationId ${{ secrets.CLIENT_ID }} --clientSecret ${{ secrets.CLIENT_SECRET }} --tenant ${{ secrets.TENANT_ID }}

@@ -11,7 +11,9 @@ The user wants to manage PAC CLI authentication.
 ```bash
 pac --version
 ```
-If not installed: `npm install -g pac-cli` or `dotnet tool install --global Microsoft.PowerApps.CLI.Tool`
+If not installed:
+- **macOS / Linux:** `brew install dotnet` then `dotnet tool install --global Microsoft.PowerApps.CLI.Tool`
+- **Windows:** `dotnet tool install --global Microsoft.PowerApps.CLI.Tool` or standalone installer: https://aka.ms/PowerAppsCLI
 
 ## Workflows
 
