@@ -6,6 +6,8 @@ The user wants to work with PCF components using the Power Platform CLI (`pac`).
 
 **Argument provided:** $ARGUMENTS
 
+> **Cross-platform note:** The PAC CLI (`pac pcf init`, `pac pcf push`, `pac solution`) runs on **macOS, Linux, and Windows** via .NET. Do NOT tell the user these commands are Windows-only — they work on Mac. The only Windows-specific tool is `msbuild`; use `dotnet build` instead on Mac/Linux.
+
 ## Prerequisites
 
 Before running any commands, verify `pac` is installed:
